@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Emerson</title>
+    
+    
+    
+    <link>/post/</link>
+    <description>Recent content in Posts on Emerson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bio</title>
+      <link>/post/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/bio/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/theartist.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Commercial Art</title>
+      <link>/post/commercial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/commercial/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/lv.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>/post/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/portfolio/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/spirit.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>The Penn Museum</title>
+      <link>/post/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/showcase/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/dress.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

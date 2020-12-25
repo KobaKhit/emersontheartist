@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emerson</title>
+    
+    
+    
+    <link>/</link>
+    <description>Recent content on Emerson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Emerson Ruffin is a digital illustrator, fashion designer and motivational speaker from Philadelphia PA. He is self-taught, beginning with paper and pencil as a child; then moving to experimentation with Adobe Photoshop in his teens. As an adult he was able to purchase an iPad where he began working out his designs using Procreate. This marked a major turning point in his ability to give incredible attention to detail in digital illustration.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/archive/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Bio</title>
+      <link>/post/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/bio/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/theartist.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Commercial Art</title>
+      <link>/post/commercial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/commercial/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/lv.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>/post/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/portfolio/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/spirit.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>The Penn Museum</title>
+      <link>/post/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/showcase/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/dress.jpg&#34;/&gt;
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
