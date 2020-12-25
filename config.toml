@@ -30,17 +30,17 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "emerson"
-      logoHomeLink = "/"
+    logoText = "EmersonTheArtist"
+    #  logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+    alt = "EmersonTheArtist"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "Bio"
         url = "/about"
       [[languages.en.menu.main]]
         identifier = "showcase"

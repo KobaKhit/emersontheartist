@@ -16,33 +16,28 @@
 
  
 
-  <div class=" row text-center">
+  <ul class="list-inline text-center">
     {{ range $paginator.Pages }}
-    <div class="col-lg-6">
+    <li class="list-inline-item">
       {{ if .Params.Cover }}
-        <figure class="post-cover">
-          {{ if .Params.UseRelativeCover }}
-          <a href = "{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
-            <img width = '90%' src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="img-fluid" />
-          </a>
-          {{ else }}
-          <a href = "{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
-            <img width = '90%' src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="img-fluid" />
-          </a>
-          {{ end }}
+        {{ if .Params.UseRelativeCover }}
+        <a href = "{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
+          <img width = '700px' src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
+        </a>
+        {{ else }}
+        <a href = "{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
+          <img  width = '700px'  src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
+        </a>
+        {{ end }}
 
-          {{ if .Params.CoverCaption }}
-            <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-          {{ end }}
-        </figure>
+        {{ if .Params.CoverCaption }}
+          <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+        {{ end }}
       {{end}}
-      {{ if not .Params.hideReadMore }}
-        <div><a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
-      {{ end }}
-    </div>
+    </li>
     {{end}}
     
     {{ partial "pagination.html" . }}
-  </div>
+    </ul>
   
 {{ end }}

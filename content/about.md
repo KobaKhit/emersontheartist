@@ -1,21 +1,20 @@
 +++
-title = "About"
-date = "2019-01-25"
-author = "Radek"
+title = "About Me"
+date = "2020-12-24"
+author = "The Artist"
 +++
 
-# Hi there
+Emerson Ruffin is a digital illustrator, fashion designer and motivational speaker from Philadelphia PA.
+He is self-taught, beginning with paper and pencil as a child; then moving to experimentation with Adobe Photoshop in his teens. As an adult he was able to purchase an iPad where he began working out his designs using Procreate. This marked a major turning point in his ability to give incredible attention to detail in digital illustration.
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Emerson’s signature style ‘see sound’ often depicts a ballet showing a blending of faces and symbols in smoke-like highlights. These are the usual suspects seen in his impressive body of work.
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
-
-The theme includes:
-
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter UI font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
-
-So, there you have it... enjoy!
+**Accomplishments**:
+  - 2016 - 2020
+    - Member of Philly Art Collective gallery which showcased my own artwork as well as acting as curator and promoter for other artists.
+  - 2019
+    - Brianna Moore and I (with a team of designer’s) designed a dress for the Penn Museum under the title Wearable Literature. It will be on display for the next decade.
+    - Placed in the top 6 of a citywide sneaker contest (Philadelphia) sponsored by PUMA.
+  - 2018
+    - In a collaborative effort with owner James Owk, designed a winter run for streetwear brand Only With Kings.
