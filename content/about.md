@@ -18,3 +18,4 @@ Emerson’s signature style ‘see sound’ often depicts a ballet showing a ble
     - Placed in the top 6 of a citywide sneaker contest (Philadelphia) sponsored by PUMA.
   - 2018
     - In a collaborative effort with owner James Owk, designed a winter run for streetwear brand Only With Kings.
+

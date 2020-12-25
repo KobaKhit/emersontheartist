@@ -23,14 +23,14 @@
       {{ if .Params.Cover }}
         {{ if .Params.UseRelativeCover }}
       
-        <a href = "{{ .Params.Link | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
+        <a href = "{{ .Params.Link | relURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
           <img width = '700px' src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
           <span class="img__description_layer">
             <p class="img__description">{{ .Params.Title}}</p>
           </span>
         </a>
         {{ else }}
-        <a href = "{{ .Params.Link | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
+        <a href = "{{ .Params.Link | relURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
           <img  width = '700px'  src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
           <span class="img__description_layer">
             <p class="img__description">{{ .Params.Title}}</p>

@@ -1,6 +1,6 @@
 +++
 title = "Commercial Art"
-link = "/commercial"
+link = "/portfolio/#Commercial Art"
 date = ""
 author = "Emmerson"
 cover = "img/lv.jpg"
