@@ -45,7 +45,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "showcase"
         name = "Showcase"
-        url = "/showcase"
+        url = "/post"
       [[languages.en.menu.main]]
         identifier = "portfolio"
         name = "Art"

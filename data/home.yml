@@ -1,0 +1,15 @@
+- title: "Bio"
+  link: "/about"
+  cover: "img/theartist.jpg"
+
+- title: "Commercial Art"
+  link: "/portfolio/#Commercial Art"
+  cover: "img/lv.jpg"
+
+- title: "Portfolio"
+  link:  "/portfolio/#Personal Portfolio"
+  cover: "img/spirit.jpg"
+
+- title: "The Penn Museum"
+  link:  "/showcase"
+  cover: "img/dress.jpg"
