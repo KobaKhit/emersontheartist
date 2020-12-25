@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ with .Site.Data.commercial }}
+<ul class="list-inline text-center">
+{{ range .items }}
+
+    <li class="list-inline-item">
+        <img  width='400px' class = "img-fluid" src = "{{ . | absURL }}" data-toggle="lightbox" data-size="1600x1067">
+    </li>
+{{ end }}
+</ul>
+{{ end }}
+{{ end }}

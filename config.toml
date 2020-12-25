@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = ""
 paginate = 5
 
 [params]
@@ -46,3 +46,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "commercial"
+        name = "Commercial Art"
+        url = "/commercial"
