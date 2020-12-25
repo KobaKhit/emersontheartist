@@ -9,6 +9,7 @@
     <description>Recent content on Emerson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -34,20 +35,19 @@
     </item>
     
     <item>
-      <title>Showcase</title>
-      <link>/showcase/</link>
-      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      <title>The Penn Museum</title>
+      <link>/post/penn-museum/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/showcase/</guid>
+      <guid>/post/penn-museum/</guid>
       <description>
         
-          
-          
+          &lt;img src=&#34;/img/projects/penn-museum/concept.jpeg&#34;/&gt;
           
         
         
         
-          
+          This is not just a dress, this is WEARABLE LITERATURE! This is the power of a conversation that ended up as a sketch on an iPad Pro, an idea as a representation of our african lineage/ancestry, woven into fabric made into a dress meant to be worn at an extravagant event. We inherited a responsibility to tell the stories of our ancestors because they’re no longer here to tell it themselves.
           
         
         </description>
@@ -83,82 +83,6 @@
         
           
           
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Bio</title>
-      <link>/post/bio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/bio/</guid>
-      <description>
-        
-          &lt;img src=&#34;/img/theartist.jpg&#34;/&gt;
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Commercial Art</title>
-      <link>/post/commercial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/commercial/</guid>
-      <description>
-        
-          &lt;img src=&#34;/img/lv.jpg&#34;/&gt;
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>/post/portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/portfolio/</guid>
-      <description>
-        
-          &lt;img src=&#34;/img/spirit.jpg&#34;/&gt;
-          
-        
-        
-        
-          
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>The Penn Museum</title>
-      <link>/post/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/showcase/</guid>
-      <description>
-        
-          &lt;img src=&#34;/img/dress.jpg&#34;/&gt;
           
         
         

@@ -8,8 +8,18 @@
   </url>
   
   <url>
-    <loc>/showcase/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/penn-museum/</loc>
+    <lastmod>2019-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -21,35 +31,11 @@
   </url>
   
   <url>
-    <loc>/post/bio/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/post/commercial/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/portfolio/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/showcase/</loc>
   </url>
   
 </urlset>

@@ -1,0 +1,26 @@
+{{ $albumUrl := print "/static/img/" ($.Get 0) }}
+{{ $list := ($.Get 1) | default false }}
+{{ $zoom := ($.Get 2) | default 1.1 }}
+<br>
+<br>
+
+<style>
+.pop-shortcode {
+    transition: all .5s;
+}
+.pop-shortcode:hover {
+    transform: scale({{if $zoom}}{{$zoom}}{{end}});
+}
+</style>
+<ul class="list-inline text-center {{ if $list }} d-flex justify-content-center align-items-center{{end}}">
+{{ range readDir $albumUrl }}
+    {{ $imgURL := print "img/" ($.Get 0) "/" .Name | absURL }}
+    <li class="list-inline-item">
+    
+            <a href = "{{ $imgURL }}" data-toggle="lightbox" data-gallery = "penn-museum">
+                <img  width='300px' class = "pop-shortcode" src = "{{ $imgURL }}" >
+            </a>
+
+    </li>
+{{ end }}
+</ul>
