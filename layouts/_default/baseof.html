@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.Language }}">
   <head>
+    {{ if $.Site.GoogleAnalytics }}
+      {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
     {{ block "title" . }}
       <title>
         {{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} —
@@ -8,8 +11,8 @@
         {{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}{{ end }}
       </title>
     {{ end }}
-    {{ partial "head.html" . }}
   </head>
+    {{ partial "head.html" . }}
   <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
     <div class="">
       {{ partial "header.html" . }}
@@ -22,9 +25,5 @@
         {{ partial "footer.html" . }}
       {{ end }}
     </div>
-
-    {{ if $.Site.GoogleAnalytics }}
-      {{ template "_internal/google_analytics.html" . }}
-    {{ end }}
   </body>
 </html>
