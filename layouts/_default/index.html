@@ -19,21 +19,31 @@
   <ul class="list-inline text-center">
     {{ range $paginator.Pages }}
     <li class="list-inline-item">
+      <div class = "img__wrap">
       {{ if .Params.Cover }}
         {{ if .Params.UseRelativeCover }}
-        <a href = "{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
+      
+        <a href = "{{ .Params.Link | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
           <img width = '700px' src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
+          <span class="img__description_layer">
+            <p class="img__description">{{ .Params.Title}}</p>
+          </span>
         </a>
         {{ else }}
-        <a href = "{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" data-toggle="lightbox" data-size="1600x1067">
+        <a href = "{{ .Params.Link | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" >
           <img  width = '700px'  src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}" class="" />
+          <span class="img__description_layer">
+            <p class="img__description">{{ .Params.Title}}</p>
+          </span>
         </a>
         {{ end }}
 
         {{ if .Params.CoverCaption }}
           <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
         {{ end }}
+        
       {{end}}
+    </div>
     </li>
     {{end}}
     
